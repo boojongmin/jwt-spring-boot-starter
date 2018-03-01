@@ -1,0 +1,95 @@
+jwt:
+  type: hma # hma=HMAC256(default), rsa=RSA256, ecdsa=ECDSA256(not supported)
+  hma.secret: secret
+  expire: 60 #minute
+  url:
+    allow:
+      - /h2-console
+      - /h2-console/**
+      - /
+  rsa.privateKey: |
+      -----BEGIN RSA PRIVATE KEY-----
+      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
+      -----END RSA PRIVATE KEY-----
+  # public는 테스트용으로 넣음 없어도 됨.
+  rsa.publickey: |
+    -----BEGIN PUBLIC KEY-----
+    MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzyVcL7sJLoI8Sn08Q6rF
+    9tZWFzuxS4b3N+3wIUJjkIdVb2jPDmiROeQE6r/Hi0xLouv11ZmH8TXHsBUWpDGo
+    tnzh9LtdNNlXjdQhfIvgDvKQJUyaGYnZ/OIzZ1/2OorhijUSw2zWzfIEWrakU/gH
+    +7yKbYfUKRJYo0DwXqgCMHhvYnK3za6hi+oH3Wy5Y96Nx2ky3JHLs1hdQPhD2STn
+    JidrlTlNOThypxnBWhIY12RcUHPkeP59T/QgfsoBvivZei588kOfRrkmzucv4tid
+    brE7AwClERBTHx8qMgkAo1g6mxcysgd3wGl+XK+Cwb7eAgmFyf2oMf1p1rR9UeCK
+    g0/Dppp6vvSJsWnlntTFAJYEDnrMRT6kU+S4c1Dex/UNxzSK3gzi08RrZzZNJm7O
+    wkD2LIsu8UuAUmAOh+vRlaWRhPG07nQq4bKyEh92dAxzyZSFvcuXKuUpQaT1fp9V
+    DxUeoLrEIoGKz8D3rWq/g9xt8FbKzkxIxWr33h5jCryKlIhklBh5+pmHYaTLwxsQ
+    sFTnE6/YYT+GSrJmJ+xNz5rnvzQmDk+2ugMBrSzbjKMeM0caJ632Fdgrn5H8LVmE
+    AeD+uSo3PpwYoN5sVdvLLGnxRk/40uTaOB6NaNRZip+pHTakdGiKjPrgGOfNaFti
+    bEDCy2HA3GJXGgx9H6+eZR8CAwEAAQ==
+    -----END PUBLIC KEY-----
+
+
+#spring.datasource.initialize=true
+  #spring.datasource.url=jdbc:h2:tcp://localhost/~/test;MODE=PostgreSQL
+spring:
+  datasource:
+    url: jdbc:h2:~/test;MODE=PostgreSQL
+    driverClassName: org.h2.Driver
+    username: sa
+    passssword:
+  h2.console.enabled: true
+
+#spring.jpa.hibernate.ddl-auto=create-drop
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQL9Dialect
+
+
+
